@@ -1,4 +1,4 @@
-# PULSE Gym & Fitness — Next.js App
+# PULSE Gym & Fitness
 
 A gym management web application built with [Next.js](https://nextjs.org), [Supabase](https://supabase.com), and [Stripe](https://stripe.com).
 
@@ -18,11 +18,10 @@ Before you begin, make sure the following are installed on your machine:
 
 ## Step-by-Step Setup
 
-### Step 1 — Clone the repository
+### Step 1 - Open Folder
 
 ```bash
-git clone <your-repo-url>
-cd GymWeb/gym
+Open folder `gym` in the VS Code
 ```
 
 ### Step 2 — Install dependencies
@@ -116,16 +115,8 @@ If you want to enable online payments:
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start dev server at http://localhost:3000 |
-| `npm run dev:admin` | Start dev server with admin portal enabled |
 | `npm run build` | Build for production |
 | `npm run start` | Start production server |
 | `npm run lint` | Run ESLint |
 
 ---
-
-## Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Supabase Documentation](https://supabase.com/docs)
-- [Stripe Documentation](https://stripe.com/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
