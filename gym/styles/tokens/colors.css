@@ -1,0 +1,14 @@
+/* TOKENS/COLORS: visual rules for this component or screen. */
+:root {
+  --accent: #2d9cdb;
+  --bg: #f6f8fa;
+  --panel: #fff;
+  --text: #17212d;
+  --muted: #7e8896;
+  --line: #e9edf1;
+  --soft: #f4f7fa;
+  --sidebar: #fff;
+  --hover: #f1f7fc;
+  --shadow: 0 3px 12px #12213003;
+  color-scheme: light;
+}

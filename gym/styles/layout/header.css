@@ -1,0 +1,68 @@
+/* LAYOUT/HEADER: visual rules for this component or screen. */
+.topbar {
+  height: 75px;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 37px;
+  gap: 12px;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: var(--font-size-11);
+  color: #9ca5af;
+}
+.breadcrumb b {
+  color: #4e5968;
+  font-size: var(--font-size-11);
+  font-weight: 500;
+}
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.top-actions select {
+  font-size: var(--font-size-10);
+  border: 0;
+  background: var(--soft);
+  padding: 7px 9px;
+}
+.demo-indicator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--font-size-8);
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.demo-indicator i {
+  background: #2bb48c;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+}
+.top-avatar {
+  font-size: var(--font-size-11);
+  width: 31px;
+  height: 31px;
+}
+.mobile-toggle {
+  display: none;
+}
+.header-toggle {
+  display: none;
+}
+.header-brand {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-18);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  margin-right: 14px;
+}

@@ -1,0 +1,205 @@
+/* FEATURES/DASHBOARD: visual rules for this component or screen. */
+.hero {
+  height: 286px;
+  position: relative;
+  border-radius: 11px;
+  overflow: hidden;
+  background: #10151b url('/images/gym.jpg') center 52% / cover;
+  margin-bottom: 22px;
+  color: white;
+}
+.hero:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #0b121bef 0%, #101925b0 39%, #0002 75%, #0004);
+}
+.hero-copy {
+  position: relative;
+  padding: 31px 34px;
+}
+.hero-kicker {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: var(--font-size-8);
+  letter-spacing: 0.17em;
+  color: #c0d4e7;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.hero-kicker span {
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.hero h2 {
+  font-size: var(--font-size-34);
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  font-weight: 750;
+}
+.hero p {
+  font-size: var(--font-size-10);
+  color: #b4bec9;
+  margin: 12px 0 18px;
+  line-height: 1.6;
+}
+.hero-stamp {
+  position: absolute;
+  right: 37px;
+  bottom: 33px;
+  border: 1px solid #ffffff40;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #0001;
+  transform: rotate(-13deg);
+}
+.hero-stamp span {
+  font-size: var(--font-size-6);
+  letter-spacing: 0.15em;
+  font-weight: 600;
+}
+.hero-stamp svg {
+  color: #fff;
+}
+.hero-pagination {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  display: flex;
+  gap: 4px;
+}
+.hero-pagination i {
+  width: 4px;
+  height: 4px;
+  border-radius: 5px;
+  background: #ffffff60;
+}
+.hero-pagination i:first-child {
+  background: var(--accent);
+  width: 15px;
+}
+.membership-card {
+  border-radius: 9px;
+  padding: 0 21px 19px;
+  background: linear-gradient(135deg, #132b3f, #0c1c2c);
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+.membership-card:after {
+  content: '';
+  width: 230px;
+  height: 230px;
+  border: 1px solid #ffffff08;
+  position: absolute;
+  border-radius: 50%;
+  right: -110px;
+  top: 55px;
+  box-shadow:
+    0 0 0 25px #ffffff03,
+    0 0 0 50px #ffffff03;
+  pointer-events: none;
+}
+.membership-kicker {
+  font-size: var(--font-size-7);
+  letter-spacing: 0.14em;
+  color: #7c9cb6;
+  margin-bottom: 7px;
+}
+.membership-card h3 {
+  font-size: var(--font-size-26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: -0.04em;
+}
+.membership-card h3 svg {
+  color: #718b9e;
+}
+.membership-divider {
+  height: 1px;
+  background: #ffffff16;
+  margin: 15px 0;
+}
+.membership-details {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 11px;
+  align-items: center;
+  font-size: var(--font-size-9);
+}
+.membership-details > span {
+  color: #91a5b6;
+}
+.membership-details b {
+  font-weight: 500;
+  font-size: var(--font-size-10);
+}
+.membership-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-9);
+  color: #c0d1de;
+  border: 1px solid #ffffff20;
+  width: 100%;
+  padding: 9px 11px;
+  border-radius: 5px;
+  margin-top: 18px;
+  background: #ffffff04;
+  position: relative;
+  z-index: 1;
+}
+.membership-card p {
+  font-size: var(--font-size-11);
+  color: #91a5b6;
+}
+.checkin-strip {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 19px 21px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 9px;
+  margin-top: 24px;
+}
+.checkin-icon {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent) 9%, var(--panel));
+  color: var(--accent);
+}
+.checkin-strip h3 {
+  font-size: var(--font-size-11);
+  letter-spacing: 0;
+}
+.checkin-strip p {
+  font-size: var(--font-size-10);
+  margin-top: 4px;
+}
+.hero.landing {
+  height: auto;
+  min-height: 286px;
+}
+.landing .hero-copy {
+  padding: 65px 45px;
+}
+.hero-link {
+  display: block;
+  color: #d1dae2;
+  font-size: var(--font-size-11);
+  padding: 15px 0;
+}

@@ -1,0 +1,55 @@
+/* UI/BADGE: visual rules for this component or screen. */
+.membership-card .badge {
+  font-size: var(--font-size-8);
+  background: #1e4944;
+  color: #78cead;
+  padding: 4px 7px;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: var(--font-size-9);
+  background: var(--soft);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.badge i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.badge.active,
+.badge.verified,
+.badge.booked,
+.badge.checked-in {
+  background: #eaf8f0;
+  color: #349a75;
+}
+.badge.pending {
+  background: #fff4df;
+  color: #b9892c;
+}
+.badge.cancelled,
+.badge.rejected,
+.badge.expired {
+  background: #fff0f0;
+  color: #c86d70;
+}
+
+/* Staff account lifecycle status: readable labels inside the member directory. */
+.member-directory .badge {
+  font-size: 0.875rem;
+}
+.badge.deleted,
+.badge.suspended {
+  background: #fff0f0;
+  color: #9d343c;
+}
+.member-directory td:nth-child(4) {
+  font-size: 0.875rem;
+  white-space: nowrap;
+}

@@ -1,0 +1,105 @@
+/* BOOKING UI: details layout and deliberately black-on-white QR for reliable scanning. */
+.booking-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 25px 0;
+  font-size: var(--font-size-12);
+}
+.booking-info > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.booking-info dt {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+}
+.booking-info dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  max-width: 65%;
+}
+.booking-pass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+  background: var(--soft);
+  border-radius: 10px;
+  text-align: center;
+  gap: 10px;
+}
+.booking-pass > svg {
+  color: var(--accent);
+}
+.booking-pass > h3 {
+  font-size: var(--font-size-14);
+}
+.booking-pass img {
+  background: white;
+  border-radius: 7px;
+  max-width: 100%;
+  height: auto;
+}
+.booking-pass p {
+  font-size: var(--font-size-11);
+  line-height: 1.8;
+}
+.booking-pass summary {
+  font-size: var(--font-size-10);
+  cursor: pointer;
+  color: var(--accent);
+}
+.booking-pass code {
+  font-size: var(--font-size-9);
+  overflow-wrap: anywhere;
+  display: block;
+  margin-top: 10px;
+}
+.qr-video {
+  display: none;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+.qr-video.visible {
+  display: block;
+  min-height: 180px;
+}
+.checkin-success {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background: #edf8f0;
+  color: #2c8b61;
+  border-radius: 7px;
+  margin-top: 15px;
+  font-size: var(--font-size-12);
+}
+
+/* ATTENDANCE WORKSPACE: independently sized QR pass cards and visit history. */
+.attendance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.attendance-card {
+  padding: 24px;
+}
+.attendance-card .booking-pass {
+  margin: 20px 0;
+}
+.attendance-card h2 {
+  font-size: var(--font-size-17);
+}
+.attendance-help {
+  color: var(--muted);
+  margin-top: 12px;
+  font-size: var(--font-size-12);
+}

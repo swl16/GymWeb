@@ -1,0 +1,61 @@
+/* FEATURES/MEMBERSHIPS: visual rules for this component or screen. */
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 21px;
+}
+.plan {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.plan.featured {
+  border: 1px solid var(--accent);
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--accent) 8%, transparent);
+}
+.plan.featured .eyebrow {
+  color: var(--accent);
+}
+.plan h2 {
+  font-size: var(--font-size-25);
+  margin: 9px 0 20px;
+}
+.plan-price {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-28);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+.plan-price small {
+  display: block;
+  font-size: var(--font-size-11);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 4px;
+}
+.plan > p {
+  font-size: var(--font-size-11);
+  margin-top: 18px;
+}
+.plan ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px 0 35px;
+  flex: 1;
+}
+.plan li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: var(--font-size-11);
+  line-height: 1.5;
+}
+.plan li svg {
+  color: var(--accent);
+}

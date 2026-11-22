@@ -1,0 +1,83 @@
+/* FEATURES/PROFILE: visual rules for this component or screen. */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 25px;
+}
+.profile-card {
+  padding: 30px;
+}
+.large-avatar {
+  width: 68px;
+  height: 68px;
+  font-size: var(--font-size-23);
+  margin-bottom: 20px;
+}
+.profile-card h2 {
+  font-size: var(--font-size-22);
+  margin-bottom: 10px;
+}
+.profile-card dl,
+.receipt-details {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.profile-card dl > div,
+.receipt-details > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: var(--font-size-12);
+}
+.profile-card dt,
+.receipt-details dt {
+  color: var(--muted);
+}
+.profile-card dd,
+.receipt-details dd {
+  margin: 0;
+}
+.profile-copy {
+  padding: 35px;
+}
+.profile-copy > svg {
+  color: var(--accent);
+  margin-bottom: 25px;
+}
+.profile-copy h2 {
+  font-size: var(--font-size-24);
+}
+.profile-copy > p {
+  margin-top: 15px;
+  font-size: var(--font-size-12);
+}
+.danger-zone {
+  margin-top: 45px;
+  border-top: 1px solid var(--line);
+  padding-top: 25px;
+}
+.danger-zone h3 {
+  font-size: var(--font-size-15);
+}
+.danger-zone p {
+  font-size: var(--font-size-11);
+  margin: 12px 0 20px;
+}
+.profile-card dl > div {
+  align-items: baseline;
+}
+.profile-card dd {
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.profile-card dl {
+  gap: 15px;
+}
+.profile-card {
+  min-width: 0;
+}
+.profile-copy {
+  min-width: 0;
+}

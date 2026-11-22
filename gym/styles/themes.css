@@ -1,0 +1,40 @@
+/* THEMES: visual rules for this component or screen. */
+[data-theme='dark'] {
+  --bg: #10151c;
+  --panel: #171e28;
+  --text: #e8eef5;
+  --muted: #8c9aab;
+  --line: #26303c;
+  --soft: #1e2733;
+  --sidebar: #151c25;
+  --hover: #202e3d;
+  color-scheme: dark;
+}
+[data-theme='dark'] .stat-top,
+[data-theme='dark'] .breadcrumb b {
+  color: #9aa8b8;
+}
+[data-theme='dark'] .stat-icon {
+  background: #263341;
+}
+[data-theme='dark'] .badge.active,
+[data-theme='dark'] .badge.booked,
+[data-theme='dark'] .badge.verified {
+  background: #1d3d35;
+  color: #77c8ac;
+}
+[data-theme='dark'] .badge.pending {
+  background: #423827;
+  color: #d6b46a;
+}
+[data-theme='dark'] .badge.rejected,
+[data-theme='dark'] .badge.cancelled,
+[data-theme='dark'] .badge.expired {
+  background: #402c34;
+  color: #d59098;
+}
+[data-theme='dark'] .error,
+[data-theme='dark'] .danger-button {
+  background: #402c34;
+  color: #e2a0a6;
+}

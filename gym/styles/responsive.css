@@ -1,0 +1,658 @@
+/* RESPONSIVE: visual rules for this component or screen. */
+@media (min-width: 1500px) {
+  .content {
+    padding-top: 36px;
+  }
+  .hero {
+    height: 320px;
+  }
+  .hero-copy {
+    padding: 40px;
+  }
+  .hero h2 {
+    font-size: var(--font-size-40);
+  }
+  .class-photo {
+    height: 170px;
+  }
+  .stat {
+    padding: 21px;
+  }
+  .overview-columns {
+    grid-template-columns: 1.7fr 1fr;
+  }
+  .membership-card {
+    padding-bottom: 25px;
+  }
+  .workout-chart {
+    height: 170px;
+  }
+  .chart-area {
+    height: 146px;
+  }
+  .chart-area svg {
+    height: 126px;
+  }
+  .activity-panel .workout-chart {
+    margin-top: 10px;
+  }
+  .hero p {
+    font-size: var(--font-size-12);
+  }
+  .hero-kicker {
+    font-size: var(--font-size-9);
+  }
+}
+@media (max-width: 1150px) {
+  .sidebar {
+    width: 210px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  main {
+    margin-left: 210px;
+    width: calc(100% - 210px);
+  }
+  .content {
+    padding: 25px 25px 0;
+  }
+  .topbar {
+    padding: 0 25px;
+  }
+  .hero {
+    height: 280px;
+  }
+  .stats-grid {
+    gap: 12px;
+  }
+  .stat {
+    padding: 14px;
+  }
+  .stat strong {
+    font-size: var(--font-size-22);
+  }
+  .stat small {
+    font-size: var(--font-size-8);
+  }
+  .class-grid {
+    gap: 13px;
+  }
+  .class-photo {
+    height: 120px;
+  }
+  .class-body {
+    padding: 13px;
+  }
+  .class-body h3 {
+    font-size: var(--font-size-12);
+  }
+  .class-date {
+    font-size: var(--font-size-7);
+  }
+  .overview-columns {
+    gap: 16px;
+  }
+  .plan {
+    padding: 23px 18px;
+  }
+  .plan-price {
+    font-size: var(--font-size-24);
+  }
+  .demo-indicator {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .sidebar {
+    width: 192px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .brand {
+    font-size: var(--font-size-25);
+    padding-left: 4px;
+  }
+  .brand > span {
+    left: 48px;
+  }
+  .workspace {
+    padding: 9px 7px;
+    gap: 7px;
+  }
+  .workspace-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .workspace b {
+    font-size: var(--font-size-10);
+  }
+  .workspace small {
+    font-size: var(--font-size-9);
+  }
+  nav button {
+    font-size: var(--font-size-10);
+    padding: 12px 9px;
+    gap: 9px;
+  }
+  nav button svg {
+    width: 17px;
+  }
+  .side-note {
+    padding: 12px 9px;
+  }
+  .side-note b {
+    font-size: var(--font-size-10);
+  }
+  .side-note p {
+    font-size: var(--font-size-9);
+  }
+  .account b {
+    font-size: var(--font-size-10);
+  }
+  main {
+    margin-left: 192px;
+    width: calc(100% - 192px);
+  }
+  .content {
+    padding: 24px 21px 0;
+  }
+  .topbar {
+    padding: 0 21px;
+    height: 65px;
+  }
+  .top-actions {
+    gap: 10px;
+  }
+  h1 {
+    font-size: var(--font-size-25);
+  }
+  .page-heading p {
+    font-size: var(--font-size-10);
+  }
+  .date-chip {
+    font-size: var(--font-size-8);
+    padding: 8px;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .stat strong {
+    font-size: var(--font-size-25);
+  }
+  .stat small {
+    font-size: var(--font-size-9);
+  }
+  .class-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .overview-columns {
+    grid-template-columns: 1fr;
+  }
+  .membership-card {
+    min-height: 260px;
+  }
+  .hero-stamp {
+    right: 25px;
+  }
+  .plans {
+    grid-template-columns: 1fr;
+  }
+  .plan {
+    padding: 25px;
+  }
+  .plan-price small {
+    display: inline;
+  }
+  .plan h2 {
+    font-size: var(--font-size-28);
+  }
+  .plan ul {
+    margin: 22px 0;
+  }
+  .plan > p {
+    margin: 10px 0;
+  }
+  .filter-row {
+    flex-wrap: wrap;
+  }
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .payment-intro {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .class-grid .class-card:last-child:nth-child(odd) {
+    grid-column: 1/-1;
+  }
+  .class-grid .class-card:last-child:nth-child(odd) .class-photo {
+    height: 180px;
+  }
+  .checkin-strip {
+    gap: 10px;
+    padding: 17px;
+  }
+  .checkin-strip h3 {
+    font-size: var(--font-size-10);
+  }
+  .checkin-strip p {
+    font-size: var(--font-size-9);
+  }
+  .checkin-strip > .secondary {
+    font-size: var(--font-size-9);
+    padding: 8px;
+  }
+}
+@media (max-width: 700px) {
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+    width: 238px;
+    padding: 30px 19px 0;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+  }
+  .sidebar.show .brand {
+    font-size: var(--font-size-29);
+  }
+  .sidebar.show nav button {
+    font-size: var(--font-size-12);
+    padding: 13px;
+  }
+  .sidebar.show .workspace b {
+    font-size: var(--font-size-12);
+  }
+  .scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: #0005;
+    z-index: 25;
+  }
+  .mobile-toggle {
+    display: inline-flex;
+  }
+  .topbar {
+    height: 63px;
+    padding: 0 17px;
+  }
+  .breadcrumb {
+    gap: 6px;
+  }
+  .breadcrumb > span,
+  .breadcrumb > svg {
+    display: none;
+  }
+  .top-actions {
+    gap: 10px;
+  }
+  .top-actions select {
+    font-size: var(--font-size-9);
+    padding: 7px;
+  }
+  .top-avatar {
+    width: 28px;
+    height: 28px;
+  }
+  main {
+    margin: 0;
+    width: 100%;
+  }
+  .content {
+    padding: 24px 17px 0;
+  }
+  .page-heading {
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .page-heading h1 {
+    font-size: var(--font-size-24);
+  }
+  .page-heading .eyebrow {
+    font-size: var(--font-size-7);
+  }
+  .page-heading p {
+    font-size: var(--font-size-10);
+    max-width: 260px;
+  }
+  .heading-action .date-chip {
+    display: none;
+  }
+  .hero {
+    height: 300px;
+  }
+  .hero-copy {
+    padding: 31px 25px;
+  }
+  .hero h2 {
+    font-size: var(--font-size-35);
+  }
+  .hero p {
+    font-size: var(--font-size-11);
+  }
+  .hero-stamp {
+    width: 75px;
+    height: 75px;
+    right: 20px;
+    bottom: 21px;
+  }
+  .hero-stamp span {
+    font-size: var(--font-size-5);
+  }
+  .hero-stamp svg {
+    width: 22px;
+  }
+  .stats-grid {
+    gap: 11px;
+    margin-bottom: 20px;
+  }
+  .stats-grid.three {
+    grid-template-columns: 1fr;
+  }
+  .stat {
+    padding: 16px;
+  }
+  .stat strong {
+    font-size: var(--font-size-25);
+  }
+  .stat-top {
+    font-size: var(--font-size-10);
+  }
+  .stat small {
+    font-size: var(--font-size-8);
+  }
+  .overview-columns {
+    margin-bottom: 25px;
+  }
+  .class-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .class-photo,
+  .class-grid .class-card:last-child:nth-child(odd) .class-photo {
+    height: 190px;
+  }
+  .class-body {
+    padding: 18px;
+  }
+  .class-body h3 {
+    font-size: var(--font-size-16);
+  }
+  .class-date {
+    font-size: var(--font-size-9);
+  }
+  .class-body p {
+    font-size: var(--font-size-11);
+  }
+  .class-bottom > span {
+    font-size: var(--font-size-10);
+  }
+  .class-bottom .text-button {
+    font-size: var(--font-size-11);
+  }
+  .section-title h2 {
+    font-size: var(--font-size-16);
+  }
+  .section-title p {
+    font-size: var(--font-size-9);
+    max-width: 220px;
+  }
+  .section-title .text-button {
+    font-size: var(--font-size-9);
+  }
+  .checkin-strip {
+    flex-wrap: wrap;
+  }
+  .checkin-strip > div:nth-child(2) {
+    flex: 1;
+  }
+  .checkin-strip > .secondary {
+    margin-left: 48px;
+  }
+  .checkin-strip h3 {
+    font-size: var(--font-size-10);
+  }
+  footer {
+    font-size: var(--font-size-7);
+    gap: 8px;
+  }
+  .footer-brand {
+    font-size: var(--font-size-9);
+  }
+  .toast {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    transform: none;
+    max-width: unset;
+    width: auto;
+    padding: 13px;
+    font-size: var(--font-size-11);
+  }
+  .toast span {
+    max-width: 100%;
+  }
+  .tabs button {
+    font-size: var(--font-size-10);
+    padding: 8px 10px;
+  }
+  .filter-row {
+    gap: 14px;
+  }
+  .search {
+    width: 100%;
+  }
+  .modal-backdrop {
+    padding: 15px;
+  }
+  .modal {
+    padding: 27px 22px;
+    max-height: 94vh;
+  }
+  .modal h2 {
+    font-size: var(--font-size-23);
+  }
+  .form-grid {
+    gap: 17px 12px;
+  }
+  .form-grid > label {
+    font-size: var(--font-size-10);
+  }
+  .form-grid input,
+  .form-grid select {
+    font-size: var(--font-size-11);
+  }
+  .modal-actions .primary,
+  .modal-actions .secondary {
+    font-size: var(--font-size-10);
+    padding: 10px 12px;
+  }
+  .plans {
+    gap: 17px;
+  }
+  .profile-copy {
+    padding: 27px;
+  }
+  .settings-panel {
+    padding: 25px;
+  }
+  .settings-panel .actions {
+    flex-wrap: wrap;
+  }
+  .landing .hero-copy {
+    padding: 45px 25px;
+  }
+  .landing h1 {
+    font-size: var(--font-size-43);
+  }
+  .landing {
+    height: auto;
+    min-height: 450px;
+  }
+  .heading-action .primary {
+    font-size: var(--font-size-9);
+    padding: 9px 10px;
+  }
+  .payment-intro {
+    padding: 20px;
+  }
+  .payment-intro h3 {
+    font-size: var(--font-size-13);
+  }
+  .swatches {
+    gap: 8px;
+  }
+  .swatches > button {
+    width: 31px;
+    height: 31px;
+  }
+  .swatches > label {
+    margin-left: 3px;
+    font-size: var(--font-size-10);
+  }
+  .swatches input {
+    width: 37px;
+  }
+}
+@media print {
+  body {
+    background: white;
+  }
+  .sidebar,
+  main,
+  .toast,
+  .modal-close {
+    display: none !important;
+  }
+  .modal-backdrop {
+    position: static;
+    background: none;
+    padding: 0;
+    backdrop-filter: none;
+  }
+  .modal {
+    box-shadow: none;
+    border: 0;
+    max-height: none;
+    width: 100%;
+    padding: 35px;
+  }
+  .modal .secondary {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .header-toggle,
+  .sidebar-collapsed .header-toggle {
+    display: inline-flex;
+  }
+  .sidebar-collapsed main {
+    margin-left: 0;
+    width: 100%;
+  }
+  .sidebar-collapsed .sidebar {
+    width: 238px;
+    padding: 30px 19px 0;
+  }
+  .sidebar-collapsed .sidebar.show .brand,
+  .sidebar-collapsed .sidebar.show .workspace,
+  .sidebar-collapsed .sidebar.show .nav-text,
+  .sidebar-collapsed .sidebar.show .nav-label,
+  .sidebar-collapsed .sidebar.show .account > div:not(.avatar) {
+    display: revert;
+  }
+  .sidebar-collapsed .sidebar.show .brand {
+    display: flex;
+    font-size: var(--font-size-26);
+  }
+  .sidebar-collapsed .sidebar.show .workspace {
+    display: flex;
+  }
+  .sidebar-collapsed .sidebar.show .sidebar-brand-row {
+    justify-content: space-between;
+    min-height: 80px;
+  }
+  .sidebar-collapsed .sidebar.show nav button,
+  .sidebar-collapsed .sidebar.show .side-setting {
+    justify-content: flex-start;
+    padding: 13px;
+  }
+  .sidebar-collapsed .sidebar.show .account {
+    justify-content: flex-start;
+  }
+  .sidebar-toggle {
+    display: none;
+  }
+  .sidebar-collapsed .sidebar.show .nav-count {
+    display: inline;
+  }
+  .sidebar.show .brand {
+    font-size: var(--font-size-26);
+  }
+  .sidebar.show .workspace b {
+    font-size: var(--font-size-12);
+  }
+}
+@media (max-width: 950px) {
+  .saved-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .pending-invoices {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .mobile-nav-toggle {
+    display: inline-flex;
+  }
+  .header-brand {
+    margin-right: 3px;
+    font-size: var(--font-size-16);
+  }
+  .breadcrumb > span,
+  .breadcrumb > svg {
+    display: none;
+  }
+  .breadcrumb b {
+    font-size: var(--font-size-10);
+  }
+  .saved-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .payment-methods {
+    gap: 7px;
+  }
+  .payment-methods button {
+    padding: 15px 9px;
+  }
+  .payment-methods button > span {
+    font-size: var(--font-size-9);
+  }
+  .invoice-item {
+    padding: 16px 13px;
+  }
+  .invoice-item > b {
+    font-size: var(--font-size-12);
+  }
+  .checkout-steps {
+    gap: 17px;
+  }
+  .card-form {
+    gap: 15px 12px;
+  }
+  .saved-card-tile > strong {
+    font-size: var(--font-size-17);
+  }
+  .test-details > div {
+    min-width: 160px;
+  }
+  .pending-invoices > article {
+    padding: 15px;
+    gap: 9px;
+  }
+  .pending-invoices h3 {
+    font-size: var(--font-size-11);
+  }
+}
