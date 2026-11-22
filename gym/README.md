@@ -120,3 +120,9 @@ If you want to enable online payments:
 | `npm run lint` | Run ESLint |
 
 ---
+
+## Admin Username & Password
+```bash
+username: PulseAdmin
+password: PulseAdmin123!
+```
